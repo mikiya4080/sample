@@ -1,3 +1,6 @@
+body {
+	overflow: hidden;
+}
 .change {
   cursor: url(../img/mosu.cur), auto;
 }
@@ -287,5 +290,12 @@
 #Main-Content .about-section {
 	width: 100%;
 	height: 800px;
-	background-color: #f7d833;
+	background-color: #f7d833;	
+}
+#Main-Content .about-section .about-section-inner　h2 {
+	display: block;
+	width: auto;
+	margin: 30px auto;
+	font-size: 20px;
+	color: #fff;
 }
