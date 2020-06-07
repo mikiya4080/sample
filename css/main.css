@@ -1,6 +1,3 @@
-body {
-	overflow: hidden;
-}
 .change {
   cursor: url(../img/mosu.cur), auto;
 }
@@ -287,15 +284,186 @@ body {
 
 
 
-#Main-Content .about-section {
+#Main-Content #about-section {
 	width: 100%;
-	height: 800px;
-	background-color: #f7d833;	
+	height: 3200px;
+	background-color: #f8f9fb;
+	text-align: center;	
 }
-#Main-Content .about-section .about-section-inner　h2 {
+#Main-Content #about-section .about-section-toptitle {
+	display: inline-block;
+	margin: 0px auto;
+	padding: 160px 0px 100px;
+	font-weight: lighter; 
+	font-size: 21px;
+	color: #000;
+	letter-spacing: 0.2em;
+	line-height: 1.6em;
+}
+#Main-Content #about-section .about-section-topinner {
+	position: relative;
+}
+#Main-Content #about-section .about-section-topinner .about-section-img01 {
 	display: block;
-	width: auto;
-	margin: 30px auto;
-	font-size: 20px;
+	width: 70vh;
+	margin: 30px auto 90px;
+}
+#Main-Content #about-section .about-section-topinner p {
+	font-weight: lighter; 
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 0.2em;
+	line-height: 2em;
+}
+#Main-Content #about-section .about-section-bottomtitle{
+	display: inline-block;
+	margin: 0px auto;
+	padding: 170px 0px 140px;
+	font-weight: lighter; 
+	font-size: 21px;
+	color: #000;
+	letter-spacing: 0.2em;
+	line-height: 1.6em;
+}
+#Main-Content #about-section .about-section-bottominner {
+	position: relative;
+}
+#Main-Content #about-section .about-section-bottominner .about-section-img02 {
+	display: block;
+	width: 70vh;
+	margin: 0px auto 80px;
+}
+#Main-Content #about-section .about-section-bottominner p {
+	font-weight: lighter; 
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 0.2em;
+	line-height: 2em;
+}
+#Main-Content #about-section .about-section-button {
+	display: block;
+	width: 150px;
+	margin: 80px auto;
+	padding: 10px 0px;
+	color: #000;
+	font-size: 17px;
+	letter-spacing: 0.2em;
+	background-color: #f8f9fb;
+	border: solid 1px #000;
+	border-radius: 4px;
+}
+#Main-Content #about-section .about-section-button:hover {
+	background: #ddd;
+	border: solid 4px #ddd;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Main-Content #manue-section {
+	position: relative;
+	width: 100%;
+	height: 1000px;
+	background-color: #DAD1B9/*#EADEBC*/;
+}
+#Main-Content #manue-section h2 {
+	padding-top: 75px;
+	font-weight: lighter; 
+	font-size: 25px;
+	color: #000;
+	letter-spacing: 0.2em;
+	line-height: 1.6em;
+	text-align: center;
+}
+#Main-Content #manue-section .manue-breadillust-right {
+	position: absolute;
+	width: 130px;
+	top: 45px;
+	right: 40%;
+}
+#Main-Content #manue-section .manue-breadillust-left {
+	position: absolute;
+	width: 130px;
+	top: 45px;
+	left: 40%;
+	transform: rotateY(180deg);
+}
+#Main-Content #manue-section .manue-title-detail /*サブタイトル*/{
+	width: 100%;
+	margin: 26px 0px;
+	font-weight: lighter; 
+	font-size: 17px;
+	color: #000;
+	letter-spacing: 0.2em;
+	line-height: 1.6em;
+	text-align: center;
+}
+#Main-Content #manue-section .manue-section-inner /*ul*/ {  
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 320px;
+	margin-bottom: 40px;
+	justify-content: center;	
+}
+#Main-Content #manue-section .manue-section-inner .manue-contents /*li*/ {
+	width: 20.5%;
+	height: 320px;
+	margin-top: 23px;
+	margin-right: 70px;
+}
+#Main-Content #manue-section .manue-section-inner .manue-contents:nth-child(3) {
+	margin-right: 0px;
+}
+#Main-Content #manue-section .manue-section-inner .manue-contents img {
+	width: 100%;
+	height: 78%;
+}
+#Main-Content #manue-section .manue-section-inner .manue-contents h3 {
+	margin-top:  7px; 
+	font-size: 16px;
+	letter-spacing: 0.2em;
+	line-height: 1.2em;
+	text-align: center;
+	color: #000;
+}
+#Main-Content #manue-section .manue-section-inner .manue-contents p {
+	margin-top:  5px;
+	font-size: 14px;
+	font-weight: lighter; 
+	letter-spacing: 0.2em;
+	line-height: 1.2em;
+	text-align: center;
+	color: #000;
+}
+#Main-Content #manue-section .button {
+	position: absolute;
+	width: 130px;
+	padding: 8px 0px;
+	bottom: 2%;
+	left: 50%;
+	font-size: 17px;
+	letter-spacing: 0.2em;
+	background-color: #fff;
+	border: solid 4px #fff;
+	border-radius: 4px;
+	transform: translateX(-50%);
+}
+#Main-Content #manue-section .button:hover {
+	background: #ddd;
+	border: solid 4px #ddd;
 	color: #fff;
 }
