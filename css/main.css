@@ -308,6 +308,15 @@
 	width: 70vh;
 	margin: 30px auto 90px;
 }
+#Main-Content #about-section .about-section-topinner .about-section-Newlogo {
+	position: absolute;
+	width: 200px;
+	color: #427352;
+	font-size: 40px;
+	font-weight: lighter;
+	top: 4%;
+	left:  32%;
+}
 #Main-Content #about-section .about-section-topinner p {
 	font-weight: lighter; 
 	font-size: 18px;
@@ -382,7 +391,7 @@
 #Main-Content #manue-section h2 {
 	padding-top: 75px;
 	font-weight: lighter; 
-	font-size: 25px;
+	font-size: 24px;
 	color: #000;
 	letter-spacing: 0.2em;
 	line-height: 1.6em;
